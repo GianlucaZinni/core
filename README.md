@@ -56,15 +56,17 @@ En la carpeta principal `Project` se encuentra el archivo `.env` que contiene la
 ## Iniciar la aplicación
 
 Una vez que el entorno esté configurado, puedes iniciar la aplicación, la cual se encargará de generar y llenar las bases de datos, 
-además de iniciar el servicio de Core. Para iniciar la aplicación, navega al directorio del proyecto /Project
+además de iniciar el servicio de Core. 
+
+Para iniciar la aplicación, dentro del *venv* navega al directorio del proyecto /Project
 
 ```bash
-cd Project
+(venv) cd Project
 ```
 
 
 Y luego, ejecuta el siguiente comando:
 
 ```bash
-uvicorn main:votechain_app --reload
+(venv) uvicorn main:votechain_app --reload
 ```
